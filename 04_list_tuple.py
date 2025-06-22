@@ -11,6 +11,9 @@ weight2 = 13.0
 # 創建妙蛙草的資訊串列(list)，順序：name, height, weight
 information_list = ???
 
+assert isinstance(information_tuple, tuple), "information_tuple 不是 tuple"
+assert isinstance(information_list, list), "information_list 不是 list"
+
 print(f"-----大比鳥-----")
 print(f"姓名：{information_tuple[0]}")
 print(f"身高：{information_tuple[1]}")
