@@ -1,5 +1,5 @@
 #TODO: 完成建立類別，並且創建新的寶可夢
-class new_pokemon:
+class Pokemon:
     def __init__(self, name, type, weak):
         ???
 
@@ -10,4 +10,4 @@ class new_pokemon:
         ???
 
 # 建立新的寶可夢
-#TODO...
+???

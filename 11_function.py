@@ -1,6 +1,6 @@
 #TODO:設計函式印出該寶可夢的詳細資訊
 def print_pokemon_info(pokemon_name, pokedex):
-    #TODO...
+    ???
 
 pokemon_dictionary = {
     "皮卡丘": {"屬性": "電", "等級": 25, "招式": ["電擊", "十萬伏特"]},

@@ -4,8 +4,7 @@ my_pokemon_list = ["小火龍(火)", "傑尼龜(水)", "妙蛙種子(草)"]
 flag = False
 for i in ???:
     for j in ???:
-        #TODO...
-
+        ???
         print(f"{j}打贏了{i}！，繼續前進！")
     if flag:
         break
