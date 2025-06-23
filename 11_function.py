@@ -1,6 +1,10 @@
 #TODO:設計函式印出該寶可夢的詳細資訊
 def print_pokemon_info(pokemon_name, pokedex):
-    ???
+    if __(1)__:
+        info = __(2)__
+        print(f"{pokemon_name}的屬性是{__(3)__}，等級是{__(4)__}，招式是{__(5)__}。")
+    else:
+        print(f"{pokemon_name}不在圖鑑中。")
 
 pokemon_dictionary = {
     "皮卡丘": {
@@ -26,3 +30,9 @@ pokemon_dictionary = {
 
 input_pokemon = input("歡迎來到寶可夢圖鑑，請輸入寶可夢名稱：")
 print_pokemon_info(input_pokemon, pokemon_dictionary)
+
+'''
+範例輸出:
+歡迎來到寶可夢圖鑑，請輸入寶可夢名稱：皮卡丘
+皮卡丘的屬性是電，等級是25，招式是['電擊', '十萬伏特']。
+'''
