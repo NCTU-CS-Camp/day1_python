@@ -1,8 +1,8 @@
 #TODO:設計函式印出該寶可夢的詳細資訊
 def print_pokemon_info(pokemon_name, pokedex):
-    if __(1)__:
-        info = __(2)__
-        print(f"{pokemon_name}的屬性是{__(3)__}，等級是{__(4)__}，招式是{__(5)__}。")
+    if pokemon_name in pokedex:
+        info = __(1)__
+        print(f"{pokemon_name}的屬性是{__(2)__}，等級是{__(3)__}，招式是{__(4)__}。")
     else:
         print(f"{pokemon_name}不在圖鑑中。")
 
