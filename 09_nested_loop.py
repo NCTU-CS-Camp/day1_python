@@ -4,7 +4,7 @@ day = input("請輸入小火龍的訓練天數：")
 for i in range(int(__(1)__)):
     print(f"第{i + 1}天")
     print("=" * 15)
-    for j in range(__(2)__):
+    for j in range(__(2)__): #Hint: 放一個數字
         print(__(3)__)
     print("__(4)__")
     print("")  
