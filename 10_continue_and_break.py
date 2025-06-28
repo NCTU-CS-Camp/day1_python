@@ -1,14 +1,14 @@
 trainer_pokemon_list = ["拉達(一般)", "喇叭芽(草)", "列空座(神獸)", "大舌頭(一般)"]
 my_pokemon = "傑尼龜(水)"
 #TODO: 印出我方寶可夢打贏訓練師寶可夢的結果，並在遇到被屬性克制或遇到神獸時印出逃跑訊息。
-for i in __(1)__:
+for pokemon in __(1)__:
     if __(2)__:
-        print(f"阿娘威，{i}出現了！快跑！")
+        print(f"阿娘威，{pokemon}出現了！快跑！")
         __(3)__
     elif __(4)__:
-        print(f"{my_pokemon}打不贏{i}，先跑！")
+        print(f"{my_pokemon}打不贏{pokemon}，先跑！")
         __(5)__
-    print(f"{my_pokemon}打贏了{i}！，繼續前進！")
+    print(f"{my_pokemon}打贏了{pokemon}！，繼續前進！")
 
 '''
 範例輸出:
