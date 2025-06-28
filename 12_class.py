@@ -1,9 +1,9 @@
 #TODO: 完成建立類別，並且創建新的寶可夢
 class Pokemon:
-    def __init__(self, name, type, weak):
-        self.name = name
-        self.type = __(1)__
-        self.weak = __(2)__ 
+    def __init__(self, pokemon_name, pokemon_type, pokemon_weak):
+        self.pokemon_name = pokemon_name
+        self.pokemon_type = __(1)__
+        self.pokemon_weak = __(2)__ 
 
     def introduction(self):
         print(f"__(3)__")

@@ -1,8 +1,8 @@
 #TODO:設計函式印出該寶可夢的詳細資訊
 def print_pokemon_info(pokemon_name, pokedex):
     if pokemon_name in pokedex:
-        info = __(1)__
-        print(f"{pokemon_name}的屬性是{__(2)__}，等級是{__(3)__}，招式是{__(4)__}。")
+        info = pokedex[pokemon_name]
+        print(f"{pokemon_name}的屬性是{__(1)__}，等級是{__(2)__}，招式是{__(3)__}。") #注意雙引號內部如果要放引號，要放雙引號
     else:
         print(f"{pokemon_name}不在圖鑑中。")
 
